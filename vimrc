@@ -140,6 +140,10 @@ endif
 
 " ========== BEGIN OF KORUJA'S COMMANDS ==========
 
+" changes tab width from 8 to 4
 set tabstop=4
 set shiftwidth=4
 "set expandtab "this command changes tab to 4 spaces
+
+" shows lines' number
+set nu 
