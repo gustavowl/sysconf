@@ -138,7 +138,7 @@ if has('langmap') && exists('+langremap')
   set nolangremap
 endif
 
-" ========== BEGIN OF KORUJA'S COMMANDS ==========
+" ========== BEGINNING OF KORUJA'S COMMANDS ==========
 
 " changes tab width from 8 to 4
 set tabstop=4
