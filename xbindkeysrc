@@ -1,0 +1,7 @@
+#copy this file to ~/.xbindkeysrc
+
+#wiki: https://wiki.archlinux.org/index.php/Xbindkeys
+#(necessary to install xbindkeys package)
+
+"/home/koruja/.scripts/swap-keyboard-map.sh"
+    Alt + k
