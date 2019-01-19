@@ -1,6 +1,6 @@
-#
-# ~/.bashrc
-#
+#copy to ~/.bashrc
+#verify, beforehand, if ~/.bashrc file exists
+#if it does, copy the content to the end of file
 
 # If not running interactively, don't do anything
 [[ $- != *i* ]] && return
