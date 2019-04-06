@@ -148,7 +148,14 @@ set shiftwidth=4
 " shows lines' absolute and relative numbers
 set nu rnu
 
-" Plugins
+" sets optional C and C++ highlightings
+" (https://github.com/octol/vim-cpp-enhanced-highlight)
+let g:cpp_class_scope_highlight = 1
+let g:cpp_member_variable_highlight = 1
+let g:cpp_class_decl_highlight = 1
+let g:cpp_experimental_template_highlight = 1
+
+" plugins
 call plug#begin('~/.vim/plugged')
 Plug 'Valloric/YouCompleteMe'
 call plug#end()

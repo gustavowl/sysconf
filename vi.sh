@@ -10,7 +10,7 @@ wget -P ~/.vim/autoload https://raw.githubusercontent.com/junegunn/vim-plug/mast
 #Downloads C and C++ syntax highlighting
 git clone https://github.com/octol/vim-cpp-enhanced-highlight.git /tmp/vim-cpp-enhanced-highlight
 mkdir -p ~/.vim/after/syntax/
-mv /tmp/vim-cpp-enhanced-highlight/after/syntax/cpp.vim ~/.vim/after/syntax/cpp.vim
+mv /tmp/vim-cpp-enhanced-highlight/after/syntax/*.vim ~/.vim/after/syntax/
 rm -rf /tmp/vim-cpp-enhanced-highlight
 
 # Run the scripts
