@@ -147,3 +147,8 @@ set shiftwidth=4
 
 " shows lines' absolute and relative numbers
 set nu rnu
+
+" Plugins
+call plug#begin('~/.vim/plugged')
+Plug 'Valloric/YouCompleteMe'
+call plug#end()
