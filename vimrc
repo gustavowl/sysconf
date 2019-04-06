@@ -153,10 +153,9 @@ set nu rnu
 let g:cpp_class_scope_highlight = 1
 let g:cpp_member_variable_highlight = 1
 let g:cpp_class_decl_highlight = 1
-let g:cpp_experimental_template_highlight = 1
 
-call plug#begin('~/.vim/plugged')
 " plugins
+call plug#begin('~/.vim/plugged')
 Plug 'Valloric/YouCompleteMe'
 
 " colours
