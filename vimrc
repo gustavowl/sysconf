@@ -155,7 +155,14 @@ let g:cpp_member_variable_highlight = 1
 let g:cpp_class_decl_highlight = 1
 let g:cpp_experimental_template_highlight = 1
 
-" plugins
 call plug#begin('~/.vim/plugged')
+" plugins
 Plug 'Valloric/YouCompleteMe'
+
+" colours
+Plug 'Lokaltog/vim-distinguished'
+Plug 'NewProggie/NewProggie-Color-Scheme'
+
 call plug#end()
+
+colorscheme distinguished
