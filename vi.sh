@@ -1,7 +1,8 @@
 #!/bin/bash
 
 # Downloads vimrc
-wget -P ~/.vimrc https://raw.githubusercontent.com/gustavowl/sysconf/master/vimrc
+wget -P ~/ https://raw.githubusercontent.com/gustavowl/sysconf/master/vimrc
+mv ~/vimrc ~/.vimrc
 
 #Downloads vim plug
 mkdir -p ~/.vim/autoload
@@ -15,4 +16,4 @@ rm -rf /tmp/vim-cpp-enhanced-highlight
 
 # Run the scripts
 vim +'PlugInstall --sync' +qa
-python3 ~/.vim/plugged/YouCompleteMe/install.py --clang-completer --all
+python3 ~/.vim/plugged/YouCompleteMe/install.py --all
